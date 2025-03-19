@@ -1,4 +1,3 @@
-import React, { useEffect, useRef, useState } from "react";
 import { FaDocker, FaGitAlt, FaJs, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
 import { SiGo, SiTypescript } from "react-icons/si";
 
