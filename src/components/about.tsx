@@ -18,7 +18,7 @@ function AboutSection() {
             Discover My Journey
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Mim</span>
+            About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Me</span>
           </h2>
         </div>
 
