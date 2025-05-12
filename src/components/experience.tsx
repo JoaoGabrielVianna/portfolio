@@ -1,33 +1,42 @@
 
 
 const experiences = [
-
   {
-    role: "Full Developer",
+    role: "Full Stack Developer",
     company: "Sonoflow",
     period: "2023 - 2024",
     type: "Full-time",
-    description: "Fundador e desenvolvedor do Sonoflow, um aplicativo de diário do sono com foco em monitoramento e análise de hábitos de sono dos usuários.",
+    description: "Desenvolvedor do Sonoflow, um aplicativo de diário do sono focado no monitoramento e análise dos hábitos de sono dos usuários. Fui responsável pela criação do aplicativo móvel e do dashboard web.",
     skills: ["React", "TypeScript", "Firebase", "Mobile Development", "Flutter"]
   },
+  // {
+  //   role: "Co-founder & CTO",
+  //   company: "PlanBTech",
+  //   period: "2024 - Present",
+  //   type: "Full-time",
+  //   description: "Co-fundador e CTO da PlanBTech, uma empresa que oferece soluções tecnológicas para startups, com ênfase no desenvolvimento de software e criação de aplicativos personalizados.",
+  //   skills: ["Node.js", "React", "Golang", "Docker", "Python"]
+  // },
   {
-    role: "Co-founder & CTO",
-    company: "PlanBTech",
-    period: "2024 - Present",
-    type: "Full-time",
-    description: "Co-fundador e CTO da PlanBTech, uma empresa que oferece soluções tecnológicas para startups, com foco em desenvolvimento de software e criação de aplicativos.",
-    skills: ["Node.js", "React", "Golang", "Docker", "python"]
-  },
-  {
-    role: "Founder & CEO",
-    company: "Unitime",
+    role: "Software Engineer",
+    company: "Unitime (Personal Project - Open Source)",
     period: "2025 - Present",
     type: "Full-time",
-    description: "Fundador da Unitime, uma empresa de consultoria em tecnologia, especializada em desenvolvimento de soluções digitais personalizadas para empresas.",
+    description: "Desenvolvedor principal do Unitime, um projeto open-source focado em criar soluções digitais personalizadas para empresas, utilizando Golang, React.js, Docker e TypeScript.",
     skills: ["Golang", "React.js", "Docker", "TypeScript"]
-  },
+  },  
+  {
+    role: "Software Engineer",
+    company: "VidiNine",
+    period: "2025 - Present",
+    type: "Full-time",
+    description: "Engenheiro de software na VidiNine, plataforma de e-commerce modular construída com Golang, React, PostgreSQL e Docker. Trabalho com microserviços, focando no desenvolvimento e manutenção de serviços como o auth-service, que gerencia autenticação e autorização de usuários.",
+    skills: ["Golang", "React.js", "Docker", "PostgreSQL", "Microservices", "TypeScript"]
+  }
+  
   // mais experiências...
 ];
+
 
 function ExperienceSection() {
   return (
