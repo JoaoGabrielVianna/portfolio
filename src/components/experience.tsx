@@ -6,7 +6,7 @@ const experiences = [
     company: "Sonoflow",
     period: "2023 - 2024",
     type: "Full-time",
-    description: "Desenvolvedor do Sonoflow, um aplicativo de diário do sono focado no monitoramento e análise dos hábitos de sono dos usuários. Fui responsável pela criação do aplicativo móvel e do dashboard web.",
+    description: "Developer of Sonoflow, a sleep diary app focused on monitoring and analyzing users' sleep habits. I was responsible for building both the mobile application and the web dashboard.",
     skills: ["React", "TypeScript", "Firebase", "Mobile Development", "Flutter"]
   },
   // {
@@ -22,18 +22,18 @@ const experiences = [
     company: "Unitime (Personal Project - Open Source)",
     period: "2025 - Present",
     type: "Full-time",
-    description: "Desenvolvedor principal do Unitime, um projeto open-source focado em criar soluções digitais personalizadas para empresas, utilizando Golang, React.js, Docker e TypeScript.",
+    description: "Lead developer of Unitime, an open-source project focused on building custom digital solutions for businesses using Golang, React.js, Docker, and TypeScript.",
     skills: ["Golang", "React.js", "Docker", "TypeScript"]
-  },  
+  },
   {
     role: "Software Engineer",
     company: "VidiNine",
     period: "2025 - Present",
     type: "Full-time",
-    description: "Engenheiro de software na VidiNine, plataforma de e-commerce modular construída com Golang, React, PostgreSQL e Docker. Trabalho com microserviços, focando no desenvolvimento e manutenção de serviços como o auth-service, que gerencia autenticação e autorização de usuários.",
+    description: "Software engineer at VidiNine, a modular e-commerce platform built with Golang, React, PostgreSQL, and Docker. I work with microservices, focusing on the development and maintenance of services like the auth-service, which handles user authentication and authorization.",
     skills: ["Golang", "React.js", "Docker", "PostgreSQL", "Microservices", "TypeScript"]
   }
-  
+
   // mais experiências...
 ];
 
@@ -46,10 +46,10 @@ function ExperienceSection() {
         {/* Título com estilo consistente */}
         <div className="flex flex-col items-center mb-16">
           <div className="inline-block px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-sm font-medium mb-4 backdrop-blur-sm border border-blue-500/20">
-            Minha Jornada Profissional
+            My Professional Journey
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Experiência</span> Profissional
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Experience</span> Professional
           </h2>
         </div>
 

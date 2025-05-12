@@ -12,10 +12,10 @@ export default function SkillsSection() {
         {/* Título com estilo consistente */}
         <div className="flex flex-col items-center mb-16">
           <div className="inline-block px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-sm font-medium mb-4 backdrop-blur-sm border border-blue-500/20">
-            Meu Arsenal Técnico
+            My Technical Arsenal
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Habilidades</span> & Tecnologias
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Skills</span> & Technologies
           </h2>
         </div>
 

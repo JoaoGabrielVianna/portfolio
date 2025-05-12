@@ -1,10 +1,10 @@
 function Navbar() {
   const navItems = [
-    { name: "Sobre", href: "#about" },
-    { name: "Habilidades", href: "#skills" },
-    { name: "Experiência", href: "#experience" },
-    { name: "Projetos", href: "#projects" },
-    { name: "Contato", href: "#contact" }
+    { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Experience", href: "#experience" },
+    { name: "Projects", href: "#projects" },
+    { name: "Contact", href: "#contact" }
   ];
 
   return (
@@ -44,7 +44,7 @@ function Navbar() {
               href="#contact"
               className="px-4 py-2 bg-gradient-to-r from-[#8A2BE2] to-[#1E90FF] text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300"
             >
-              Contrate-me
+              Hire me
             </a>
           </li>
         </ul>
@@ -68,7 +68,7 @@ function Navbar() {
               href="#contact"
               className="block px-4 py-2 bg-gradient-to-r from-[#8A2BE2] to-[#1E90FF] text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 text-center mt-2"
             >
-              Contrate-me
+              Hire me
             </a>
           </li>
         </ul>
